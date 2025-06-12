@@ -41,7 +41,7 @@ describe('Login', () => {
         cy.wait 
 
         // Sistema deve apresentar a mensagem de alerta
-        cy.get('.invalid_input').should('have.text', 'E-mail inválido.')
+        cy.get('.invalid_input').should('have.text', 'E-mail inválido..') 
         
 
     })

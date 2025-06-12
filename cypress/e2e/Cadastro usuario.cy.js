@@ -27,7 +27,7 @@ describe('Menu Lateral', () => {
       
 
       // 7 - Validar texto cadastro realizado
-      cy.get('#swal2-title').should('have.text', 'Cadastro realizado!')
+      cy.get('#swal2-title').should('have.text', 'Cadastro realizado!!')
 
       // 8 - Clicar em OK
       cy.get('.swal2-confirm').click()
